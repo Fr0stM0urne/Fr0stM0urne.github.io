@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Muhammad Ibrahim"
-  avatar           : "/images/bio-photo-2.jpg"
+  avatar           : "bio-photo-2.jpg"
   bio              : "Computer Science PhD @ Purdue University | Cybersecurity @ PurSec Lab"
   location         : #"Location"
   employer         :
