@@ -23,3 +23,6 @@ main:
 
   - title: "Resumé"
     url: http://fr0stm0urne.github.io/files/resume.pdf
+
+  - title: "CVEs"
+    url: /cves/
