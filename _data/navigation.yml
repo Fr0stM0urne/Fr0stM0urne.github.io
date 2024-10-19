@@ -22,7 +22,7 @@ main:
   #   url: /markdown/
 
   - title: "Curriculum Vitae"
-    url: http://fr0stm0urne.github.io/files/CVIbrahim.pdf
+    url: http://fr0stm0urne.github.io/files/CVIbrahim.txt
 
   - title: "CVEs"
     url: /cves/
