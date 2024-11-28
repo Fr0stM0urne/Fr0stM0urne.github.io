@@ -15,4 +15,4 @@ I am a Computer Science PhD Candidate at Purdue University advised by [Dr. Anton
 Education <img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/refs/heads/6.x/svgs/solid/graduation-cap.svg" width="40" height="40">
 ====
 - PhD in Computer Science, Purdue University (Aug 2019 - Dec 2024)
-- BS in Computer Science, Lahore University of Management Sciences, Pakistan (Aug 2015 - Aug 2019)
+- BS in Computer Science, LUMS, Pakistan (Aug 2015 - Aug 2019)
