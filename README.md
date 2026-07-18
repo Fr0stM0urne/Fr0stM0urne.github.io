@@ -1,20 +1,22 @@
 # fr0stm0urne.github.io
 
-Personal website of **Muhammad Ibrahim** — security researcher (mobile & IoT systems).
+Personal website of **Muhammad Ibrahim** — Research Scientist II, CyFI Lab, Georgia Tech.
 
 Live at **https://fr0stm0urne.github.io/**
 
 ## Stack
 
 Plain, hand-written **HTML + CSS + JavaScript** — no Jekyll, no build step, no
-dependencies. GitHub Pages serves the files directly.
+dependencies, no webfonts (system monospace only). GitHub Pages serves the files
+directly. Terminal / brutalist theme with a light ("paper") and dark ("green
+phosphor") mode.
 
 ```
 index.html            # the whole page (all sections)
-assets/css/style.css  # styles + light/dark theme tokens
+assets/css/style.css  # terminal theme + light/dark tokens
 assets/js/main.js      # theme toggle, mobile nav, scroll spy, reveal
-assets/favicon.svg     # "MI" monogram favicon
-images/profile.jpeg    # portrait
+assets/favicon.svg     # ">_" prompt favicon
+images/profile.jpg     # portrait
 files/                 # CV + paper PDFs
 ```
 
