@@ -7,15 +7,15 @@ Live at **https://fr0stm0urne.github.io/**
 ## Stack
 
 Plain, hand-written **HTML + CSS + JavaScript** — no Jekyll, no build step, no
-dependencies, no webfonts (system monospace only). GitHub Pages serves the files
-directly. Terminal / brutalist theme with a light ("paper") and dark ("green
-phosphor") mode.
+dependencies, no webfonts (system fonts only). GitHub Pages serves the files
+directly. "Academic paper" theme (serif, warm) with a light ("cream paper") and
+dark ("night paper") mode.
 
 ```
 index.html            # the whole page (all sections)
-assets/css/style.css  # terminal theme + light/dark tokens
+assets/css/style.css  # academic-paper theme + light/dark tokens
 assets/js/main.js      # theme toggle, mobile nav, scroll spy, reveal
-assets/favicon.svg     # ">_" prompt favicon
+assets/favicon.svg     # "MI" serif monogram favicon
 images/profile.jpg     # portrait
 files/                 # CV + paper PDFs
 ```

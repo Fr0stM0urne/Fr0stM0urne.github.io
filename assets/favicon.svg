@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" fill="#0a0d0a"/>
-  <rect x="1.5" y="1.5" width="61" height="61" fill="none" stroke="#46e08a" stroke-width="3"/>
+  <rect width="64" height="64" fill="#f7f4ec"/>
   <text x="50%" y="54%" dominant-baseline="central" text-anchor="middle"
-        font-family="ui-monospace, Menlo, Consolas, monospace" font-size="30" font-weight="700" fill="#46e08a">&gt;_</text>
+        font-family="Palatino, Georgia, 'Times New Roman', serif" font-style="italic"
+        font-size="34" font-weight="700" fill="#9a3412">MI</text>
 </svg>
