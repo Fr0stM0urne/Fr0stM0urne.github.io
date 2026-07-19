@@ -212,6 +212,48 @@ main { counter-reset: sec; }
 }
 .pub-links a:hover { text-decoration: none; border-bottom-color: var(--accent); }
 
+/* ---------- First-author highlight (with subtle motion) ---------- */
+.pub-list { gap: 14px; }
+.pub { padding: 12px 18px; border-left: 3px solid transparent; transition: background-color .25s ease, border-color .25s ease; }
+.pub-first {
+  position: relative; overflow: hidden;
+  border-left-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 7%, var(--surface));
+}
+html[data-theme="dark"] .pub-first { background: color-mix(in srgb, var(--accent) 13%, var(--surface)); }
+/* a soft light that scans down the accent rule */
+.pub-first::before {
+  content: ""; position: absolute; left: 0; top: -40%; width: 3px; height: 40%;
+  background: linear-gradient(to bottom, transparent, color-mix(in srgb, var(--accent) 92%, #fff), transparent);
+  animation: pub-scan 3.4s ease-in-out infinite;
+}
+@keyframes pub-scan { 0% { top: -40%; } 60%, 100% { top: 100%; } }
+
+.first-badge {
+  display: inline-block; margin-bottom: 6px;
+  font-variant: small-caps; letter-spacing: .09em; font-size: .82rem; font-weight: 700;
+  color: var(--accent);
+}
+.first-badge::before {
+  content: "\2605"; margin-right: 6px; display: inline-block;
+  animation: first-twinkle 2.6s ease-in-out infinite;
+}
+@keyframes first-twinkle {
+  0%, 100% { opacity: .5; transform: scale(.85) rotate(0deg); }
+  50%      { opacity: 1;  transform: scale(1.15) rotate(12deg); }
+}
+
+.pub-first:hover { background: color-mix(in srgb, var(--accent) 13%, var(--surface)); }
+.pub-first:hover .pub-title {
+  text-decoration: underline; text-underline-offset: 3px;
+  text-decoration-color: color-mix(in srgb, var(--accent) 55%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pub-first::before { display: none; }
+  .first-badge::before { animation: none; }
+}
+
 /* ---------- CVEs ---------- */
 .cve-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0; }
 .cve {
